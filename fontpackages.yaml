@@ -1,0 +1,41 @@
+Name: fontpackages
+Summary: Common directory and macro definitions used by font packages
+Version: 1.44
+Release: 1
+Group: Development/System
+# Mostly means the scriptlets inserted via this package do not change the
+# license of the packages they're inserted in
+License: LGPLv3+
+URL: http://fedoraproject.org/wiki/fontpackages/
+Sources:
+    - http://fedorahosted.org/releases/f/o/%{name}/%{name}-%{version}.tar.xz
+Description: |
+    This package contains the basic directory layout, spec templates, rpm macros
+    and other materials used to create font packages.
+
+#no congiure and build needed
+Configure: none
+Builder: none
+BuildArch: noarch
+NoFiles: Yes
+SubPackages:
+    - Name: devel
+      Summary: Templates and macros used to create font packages
+      Group: Development/System
+      Description: |
+          This package contains spec templates, rpm macros and other materials used to
+          create font packages. For the full feature experience, 
+          please install rpmdevtools
+      Requires:
+          - "%{name}-filesystem = %{version}-%{release}"
+          - fontconfig
+
+    - Name: filesystem
+      Summary: Directories used by font packages
+      Group: Development/System
+      License: Public Domain
+      FilesInput: "%{name}-%{version}.files"
+      Description: |
+          This package contains the basic directory layout used by font packages,
+          including the correct permissions for the directories.
+

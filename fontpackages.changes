@@ -1,0 +1,59 @@
+* Sat Sep 03 2011 Carsten Munk <carsten@maemo.org> - 1.44
+- Drop rpmdevtools dependancy, recommend it in description
+
+* Tue Aug 10 2010 Ling Yue <ling.yue@intel.com> - 1.44
+- Upgrade to 1.44
+- Use spectacle
+
+* Wed Dec 23 2009 Zhang Qiang <qiang.z.zhang@intel.com> - 1.41
+- Update to 1.41
+
+* Tue Feb 24 2009 Zhang, Qiang Z<qiang.z.zhang@intel.com> 1.20
+- Update to 1.20
+
+* Tue Jan 06 2009 Anas Nashif <anas.nashif@intel.com> 1.13
+- Initial import into Moblin
+
+* Mon Dec 22 2008 Nicolas Mailhot <nim at fedoraproject dot org>
+- 1.13-1
+⟃ Add another directory to avoid depending on unowned stuff
+❤ use it to put the fontconfig examples in a better place
+* Sun Dec 21 2008 Nicolas Mailhot <nim at fedoraproject dot org>
+- 1.12-2
+⌂ Change homepage
+* Fri Dec 19 2008 Nicolas Mailhot <nim at fedoraproject dot org>
+- 1.12-1
+☺ Add another macro to allow building fontconfig without cycling
+* Wed Dec 10 2008 Nicolas Mailhot <nim at fedoraproject dot org>
+- 1.11-1
+☺ Add actual fedorahosted references
+* Sun Nov 23 2008 Nicolas Mailhot <nim at fedoraproject dot org>
+- 1.10-1
+☺ renamed to “fontpackages”
+* Fri Nov 14 2008 Nicolas Mailhot <nim at fedoraproject dot org>
+- 1.9-1
+☺ fix and complete fontconfig doc
+* Fri Nov 14 2008 Nicolas Mailhot <nim at fedoraproject dot org>
+- 1.8-1
+☺ simplify multi spec template: codify general case
+- 1.7-1
+☺ split fontconfig template documentation is separate files
+- 1.6-1
+☺ simplify spec templates
+- 1.5-1
+☺ use ".conf" extension for fontconfig templates
+- 1.4-1
+☺ small multi spec template fix
+
+* Wed Nov 12 2008 Nicolas Mailhot <nim at fedoraproject dot org>
+- 1.3-1
+☺ remove trailing slashes in directory macros
+
+* Tue Nov 11 2008 Nicolas Mailhot <nim at fedoraproject dot org>
+- 1.2-1
+☺ add fontconfig templates
+☺ fix a few typos
+
+* Mon Nov 10 2008 Nicolas Mailhot <nim at fedoraproject dot org>
+- 1.0-1
+☺ initial release
